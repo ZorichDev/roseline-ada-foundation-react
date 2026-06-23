@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Roseline Ada Foundation</title>
+    <link rel="icon" href="/assets/img/favicon.png" sizes="20x20" type="image/png" />
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="/assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/assets/css/fontawesome.min.css" />
+    <link rel="stylesheet" href="/assets/css/flaticon.min.css" />
+    <link rel="stylesheet" href="/assets/css/nice-select.min.css" />
+    <link rel="stylesheet" href="/assets/css/magnific.min.css" />
+    <link rel="stylesheet" href="/assets/css/spacing.min.css" />
+    <link rel="stylesheet" href="/assets/css/slick.min.css" />
+    <link rel="stylesheet" href="/assets/css/style.css" />
+
+    <!-- jQuery + plugins (loaded once globally; re-initialized per page by usePagePlugins) -->
+    <script src="/assets/js/jquery.min.js"></script>
+    <script src="/assets/js/bootstrap.min.js"></script>
+    <script src="/assets/js/nice-select.min.js"></script>
+    <script src="/assets/js/circle-progress.min.js"></script>
+    <script src="/assets/js/skill.bars.jquery.min.js"></script>
+    <script src="/assets/js/magnific.min.js"></script>
+    <script src="/assets/js/appear.min.js"></script>
+    <script src="/assets/js/isotope.min.js"></script>
+    <script src="/assets/js/imageload.min.js"></script>
+    <script src="/assets/js/slick.min.js"></script>
+
+    <!-- SweetAlert2 -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <!-- EmailJS SDK -->
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script>
+        (function () {
+            if (window.emailjs) {
+                window.emailjs.init("3PD5AyCly9DCyS4u1"); // Replace with your EmailJS public key
+            }
+        })();
+    </script>
+</head>
+
+<body class="sc5">
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+</body>
+
+</html>

@@ -1,0 +1,93 @@
+.vcedi-form-area .section-block {
+    border-top: 1px solid #eee;
+    padding-top: 30px;
+    margin-top: 30px;
+}
+.vcedi-form-area .section-block:first-child {
+    border-top: none;
+    padding-top: 0;
+    margin-top: 0;
+}
+.vcedi-form-area .section-block h4 {
+    margin-bottom: 5px;
+}
+.vcedi-form-area .section-block .section-note {
+    color: #777;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+.vcedi-form-area .choice-group {
+    margin-bottom: 18px;
+}
+.vcedi-form-area .choice-group > label.choice-title {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+.vcedi-form-area .form-check {
+    margin-right: 18px;
+    display: inline-block;
+}
+.vcedi-form-area textarea.form-control {
+    resize: vertical;
+}
+.vcedi-form-area .file-note {
+    font-size: 13px;
+    color: #888;
+    margin-top: 6px;
+}
+
+/* CTA block used on Home / Contact / Become Volunteer pages */
+.vcedi-cta {
+    background: linear-gradient(135deg, #20B86D 0%, #16915480 100%), #16a085;
+    border-radius: 16px;
+    padding: 50px 30px;
+    text-align: center;
+    color: #fff;
+    margin: 60px 0;
+}
+.vcedi-cta h3 {
+    color: #fff;
+    margin-bottom: 12px;
+}
+.vcedi-cta p {
+    color: #eafff4;
+    max-width: 620px;
+    margin: 0 auto 28px;
+}
+.vcedi-cta .vcedi-cta-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+}
+.vcedi-cta .btn-outline-light-custom {
+    background: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 12px 28px;
+    border-radius: 50px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.25s ease;
+    display: inline-block;
+}
+.vcedi-cta .btn-outline-light-custom:hover {
+    background: #fff;
+    color: #16915d;
+}
+.vcedi-cta .btn-solid-light-custom {
+    background: #fff;
+    color: #16915d;
+    border: 2px solid #fff;
+    padding: 12px 28px;
+    border-radius: 50px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.25s ease;
+    display: inline-block;
+}
+.vcedi-cta .btn-solid-light-custom:hover {
+    background: transparent;
+    color: #fff;
+}
