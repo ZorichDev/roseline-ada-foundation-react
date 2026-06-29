@@ -23,6 +23,7 @@ import Volunteers from './pages/Volunteers'
 import NotFound from './pages/NotFound'
 import VcediAssociateRegistration from './pages/VcediAssociateRegistration'
 import VcediSchoolPartnership from './pages/VcediSchoolPartnership'
+import VcediChildrenSupport from './pages/VcediChildrenSupport'
 
 export default function App() {
     return (
@@ -49,6 +50,7 @@ export default function App() {
                 <Route path="/volunteers" element={<Volunteers />} />
                 <Route path="/vcedi-associate-registration" element={<VcediAssociateRegistration />} />
                 <Route path="/vcedi-school-partnership" element={<VcediSchoolPartnership />} />
+                <Route path="/vcedi-children-support" element={<VcediChildrenSupport />} />
                 <Route path="*" element={<NotFound />} />
             </Route>
         </Routes>
